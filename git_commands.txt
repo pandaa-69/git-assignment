@@ -1,0 +1,53 @@
+GIT COMMANDS USED IN THIS ASSIGNMENT
+Name: Durgesh Kumar | Student ID: 2024EB01196
+
+1. git --version
+   Checks which version of Git is installed on the system.
+
+2. git init
+   Creates a new empty Git repository in the current project folder.
+
+3. git status
+   Shows which files are modified, staged, or untracked in the repository.
+
+4. git status --ignored
+   Shows the files that Git is ignoring because of the .gitignore file.
+
+5. git add .
+   Adds all new and changed files to the staging area.
+
+6. git add <filename>
+   Adds only the given file to the staging area.
+
+7. git commit -m "message"
+   Saves the staged changes as a new commit with a short message.
+
+8. git log --oneline
+   Shows the commit history with each commit in a single line.
+
+9. git branch feature
+   Creates a new branch named feature.
+
+10. git checkout <branch>
+    Switches from the current branch to the given branch.
+
+11. git merge --no-ff feature -m "message"
+    Merges the feature branch into main and creates a merge commit so the branch stays visible in history.
+
+12. git log --oneline --graph --all
+    Shows the commit history of all branches as a graph, including branching and merging.
+
+13. git revert HEAD --no-edit
+    Undoes the last commit by creating a new commit that reverses its changes, without opening an editor.
+
+14. git remote add origin <url>
+    Connects the local repository to the remote repository on GitHub.
+
+15. git remote -v
+    Shows the remote repository URL linked to the local repository.
+
+16. git push -u origin main
+    Uploads the main branch to GitHub and sets it as the default upstream branch.
+
+17. git push origin feature
+    Uploads the feature branch to GitHub.
